@@ -20,7 +20,7 @@ import Assessments from './containers/Assessments'
 import Assessment from './containers/Assessments/Assessment'
 import Settings from './containers/Settings'
 
-//Users Containers 
+//Users Containers
 import Login from './containers/Login'
 import Register from './containers/Register'
 import RecoveryPassword from './containers/RecoveryPassword'
@@ -51,7 +51,7 @@ class App extends Component {
             <Route exact path={'/adm/category/:_id?'} component={SkeletonDashboard(Category)} />
 
             <Route exact path={'/adm/products'} component={SkeletonDashboard(Products)} />
-            <Route exact path={'/adm/product/:_id?'} component={SkeletonDashboard(Product)} />
+            <Route exact path={'  :_id?'} component={SkeletonDashboard(Product)} />
             <Route exact path={'/adm/new-product'} component={SkeletonDashboard(NewProduct)} />
 
             <Route exact path={'/adm/assessments/:_id?'} component={SkeletonDashboard(Assessments)} />
